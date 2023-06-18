@@ -1,0 +1,29 @@
+{
+  "name": "quick-node-cli",
+  "version": "1.0.0",
+  "description": "node.js 脚手架",
+  "main": "index.js",
+  "bin": {
+    "gen": "bin/gen.js"
+  },
+  "scripts": {
+    "dev": "nodemon bin/gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joyee/quick-node-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joyee/quick-node-cli/issues"
+  },
+  "homepage": "https://github.com/Joyee/quick-node-cli#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.4"
+  }
+}
